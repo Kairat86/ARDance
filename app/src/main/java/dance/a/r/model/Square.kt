@@ -7,8 +7,8 @@ import java.nio.ShortBuffer
 
 
 class Square {
-    private lateinit var vertexBuffer: FloatBuffer
-    private lateinit var drawListBuffer: ShortBuffer
+    private var vertexBuffer: FloatBuffer
+    private var drawListBuffer: ShortBuffer
 
     // number of coordinates per vertex in this array
     val COORDS_PER_VERTEX = 3
